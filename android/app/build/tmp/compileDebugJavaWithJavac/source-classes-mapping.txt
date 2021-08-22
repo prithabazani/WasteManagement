@@ -1,0 +1,14 @@
+com/wasteintoprofit/BuildConfig.java
+ com.wasteintoprofit.BuildConfig
+com/wasteintoprofit/ReactNativeFlipper.java
+ com.wasteintoprofit.ReactNativeFlipper
+ com.wasteintoprofit.ReactNativeFlipper$1
+ com.wasteintoprofit.ReactNativeFlipper$2
+ com.wasteintoprofit.ReactNativeFlipper$2$1
+com/wasteintoprofit/MainApplication.java
+ com.wasteintoprofit.MainApplication
+ com.wasteintoprofit.MainApplication$1
+com/wasteintoprofit/MainActivity.java
+ com.wasteintoprofit.MainActivity
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList

@@ -1,0 +1,136 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.wasteintoprofit"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->D:\Pritha\React_App\WasteIntoProfit\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->D:\Pritha\React_App\WasteIntoProfit\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\Pritha\React_App\WasteIntoProfit\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->D:\Pritha\React_App\WasteIntoProfit\android\app\src\main\AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->D:\Pritha\React_App\WasteIntoProfit\android\app\src\main\AndroidManifest.xml:5:5-81
+13-->D:\Pritha\React_App\WasteIntoProfit\android\app\src\main\AndroidManifest.xml:5:22-78
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->D:\Pritha\React_App\WasteIntoProfit\android\app\src\main\AndroidManifest.xml:6:5-79
+14-->D:\Pritha\React_App\WasteIntoProfit\android\app\src\main\AndroidManifest.xml:6:22-76
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->D:\Pritha\React_App\WasteIntoProfit\android\app\src\main\AndroidManifest.xml:7:5-64
+15-->D:\Pritha\React_App\WasteIntoProfit\android\app\src\main\AndroidManifest.xml:7:22-62
+16    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+16-->D:\Pritha\React_App\WasteIntoProfit\android\app\src\main\AndroidManifest.xml:8:5-70
+16-->D:\Pritha\React_App\WasteIntoProfit\android\app\src\main\AndroidManifest.xml:8:22-68
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->D:\Pritha\React_App\WasteIntoProfit\android\app\src\main\AndroidManifest.xml:9:5-79
+17-->D:\Pritha\React_App\WasteIntoProfit\android\app\src\main\AndroidManifest.xml:9:22-77
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->D:\Pritha\React_App\WasteIntoProfit\android\app\src\main\AndroidManifest.xml:10:5-80
+18-->D:\Pritha\React_App\WasteIntoProfit\android\app\src\main\AndroidManifest.xml:10:22-78
+19    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+19-->[com.facebook.flipper:flipper:0.75.1] C:\Users\prith\.gradle\caches\transforms-2\files-2.1\a8f6015f96666ab8d93bfe5b64998bc8\jetified-flipper-0.75.1\AndroidManifest.xml:16:5-76
+19-->[com.facebook.flipper:flipper:0.75.1] C:\Users\prith\.gradle\caches\transforms-2\files-2.1\a8f6015f96666ab8d93bfe5b64998bc8\jetified-flipper-0.75.1\AndroidManifest.xml:16:22-73
+20
+21    <queries>
+21-->[:react-native-image-crop-picker] D:\Pritha\React_App\WasteIntoProfit\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-14:15
+22        <intent>
+22-->[:react-native-image-crop-picker] D:\Pritha\React_App\WasteIntoProfit\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:9-13:18
+23            <action android:name="android.media.action.IMAGE_CAPTURE" />
+23-->[:react-native-image-crop-picker] D:\Pritha\React_App\WasteIntoProfit\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-73
+23-->[:react-native-image-crop-picker] D:\Pritha\React_App\WasteIntoProfit\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:21-70
+24        </intent>
+25    </queries>
+26
+27    <application
+27-->D:\Pritha\React_App\WasteIntoProfit\android\app\src\main\AndroidManifest.xml:12:5-30:19
+28        android:name="com.wasteintoprofit.MainApplication"
+28-->D:\Pritha\React_App\WasteIntoProfit\android\app\src\main\AndroidManifest.xml:13:7-38
+29        android:allowBackup="false"
+29-->D:\Pritha\React_App\WasteIntoProfit\android\app\src\main\AndroidManifest.xml:17:7-34
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.1.0] C:\Users\prith\.gradle\caches\transforms-2\files-2.1\d67cd79abd1ca209502f51c69d23182b\core-1.1.0\AndroidManifest.xml:24:18-86
+31        android:debuggable="true"
+32        android:icon="@mipmap/ic_launcher"
+32-->D:\Pritha\React_App\WasteIntoProfit\android\app\src\main\AndroidManifest.xml:15:7-41
+33        android:label="@string/app_name"
+33-->D:\Pritha\React_App\WasteIntoProfit\android\app\src\main\AndroidManifest.xml:14:7-39
+34        android:roundIcon="@mipmap/ic_launcher_round"
+34-->D:\Pritha\React_App\WasteIntoProfit\android\app\src\main\AndroidManifest.xml:16:7-52
+35        android:theme="@style/AppTheme"
+35-->D:\Pritha\React_App\WasteIntoProfit\android\app\src\main\AndroidManifest.xml:18:7-38
+36        android:usesCleartextTraffic="true" >
+36-->D:\Pritha\React_App\WasteIntoProfit\android\app\src\debug\AndroidManifest.xml:8:9-44
+37        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+37-->D:\Pritha\React_App\WasteIntoProfit\android\app\src\debug\AndroidManifest.xml:11:9-86
+37-->D:\Pritha\React_App\WasteIntoProfit\android\app\src\debug\AndroidManifest.xml:11:19-83
+38        <activity
+38-->D:\Pritha\React_App\WasteIntoProfit\android\app\src\main\AndroidManifest.xml:19:7-29:18
+39            android:name="com.wasteintoprofit.MainActivity"
+39-->D:\Pritha\React_App\WasteIntoProfit\android\app\src\main\AndroidManifest.xml:20:9-37
+40            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+40-->D:\Pritha\React_App\WasteIntoProfit\android\app\src\main\AndroidManifest.xml:22:9-86
+41            android:label="@string/app_name"
+41-->D:\Pritha\React_App\WasteIntoProfit\android\app\src\main\AndroidManifest.xml:21:9-41
+42            android:launchMode="singleTask"
+42-->D:\Pritha\React_App\WasteIntoProfit\android\app\src\main\AndroidManifest.xml:23:9-40
+43            android:windowSoftInputMode="adjustResize" >
+43-->D:\Pritha\React_App\WasteIntoProfit\android\app\src\main\AndroidManifest.xml:24:9-51
+44            <intent-filter>
+44-->D:\Pritha\React_App\WasteIntoProfit\android\app\src\main\AndroidManifest.xml:25:9-28:25
+45                <action android:name="android.intent.action.MAIN" />
+45-->D:\Pritha\React_App\WasteIntoProfit\android\app\src\main\AndroidManifest.xml:26:13-65
+45-->D:\Pritha\React_App\WasteIntoProfit\android\app\src\main\AndroidManifest.xml:26:21-62
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->D:\Pritha\React_App\WasteIntoProfit\android\app\src\main\AndroidManifest.xml:27:13-73
+47-->D:\Pritha\React_App\WasteIntoProfit\android\app\src\main\AndroidManifest.xml:27:23-70
+48            </intent-filter>
+49        </activity>
+50
+51        <provider
+51-->[:react-native-image-crop-picker] D:\Pritha\React_App\WasteIntoProfit\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:9-27:20
+52            android:name="androidx.core.content.FileProvider"
+52-->[:react-native-image-crop-picker] D:\Pritha\React_App\WasteIntoProfit\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-62
+53            android:authorities="com.wasteintoprofit.provider"
+53-->[:react-native-image-crop-picker] D:\Pritha\React_App\WasteIntoProfit\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:13-60
+54            android:exported="false"
+54-->[:react-native-image-crop-picker] D:\Pritha\React_App\WasteIntoProfit\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:13-37
+55            android:grantUriPermissions="true" >
+55-->[:react-native-image-crop-picker] D:\Pritha\React_App\WasteIntoProfit\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:13-47
+56            <meta-data
+56-->[:react-native-image-crop-picker] D:\Pritha\React_App\WasteIntoProfit\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-26:58
+57                android:name="android.support.FILE_PROVIDER_PATHS"
+57-->[:react-native-image-crop-picker] D:\Pritha\React_App\WasteIntoProfit\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:17-67
+58                android:resource="@xml/provider_paths" />
+58-->[:react-native-image-crop-picker] D:\Pritha\React_App\WasteIntoProfit\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:17-55
+59        </provider>
+60
+61        <activity
+61-->[:react-native-image-crop-picker] D:\Pritha\React_App\WasteIntoProfit\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:9-31:72
+62            android:name="com.yalantis.ucrop.UCropActivity"
+62-->[:react-native-image-crop-picker] D:\Pritha\React_App\WasteIntoProfit\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:13-60
+63            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+63-->[:react-native-image-crop-picker] D:\Pritha\React_App\WasteIntoProfit\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:13-69
+64        <activity
+64-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\prith\.gradle\caches\transforms-2\files-2.1\2631375de80937c90cd3a1032ab35871\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+65            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+65-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\prith\.gradle\caches\transforms-2\files-2.1\2631375de80937c90cd3a1032ab35871\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+66            android:exported="false"
+66-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\prith\.gradle\caches\transforms-2\files-2.1\2631375de80937c90cd3a1032ab35871\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+67            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+67-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\prith\.gradle\caches\transforms-2\files-2.1\2631375de80937c90cd3a1032ab35871\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+68
+69        <meta-data
+69-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\prith\.gradle\caches\transforms-2\files-2.1\dcffa74d8d015470a7eae32b9eb648c7\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+70            android:name="com.google.android.gms.version"
+70-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\prith\.gradle\caches\transforms-2\files-2.1\dcffa74d8d015470a7eae32b9eb648c7\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+71            android:value="@integer/google_play_services_version" />
+71-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\prith\.gradle\caches\transforms-2\files-2.1\dcffa74d8d015470a7eae32b9eb648c7\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+72    </application>
+73
+74</manifest>
